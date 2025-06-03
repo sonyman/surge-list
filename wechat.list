@@ -80,6 +80,7 @@ RULE-DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
 RULE-DOMAIN-SUFFIX,wxs.qq.com,DIRECT
 # 微信上传服务器
 RULE-DOMAIN-SUFFIX,yun-hl.3g.qq.com,DIRECT
+RULE-DOMAIN-SUFFIX,tc.qq.com,DIRECT
 
 # 微信 iOS/Android UA
 RULE-USER-AGENT,MicroMessenger*,DIRECT
