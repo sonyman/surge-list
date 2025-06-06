@@ -132,4 +132,4 @@ USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
 
 # 腾讯云 ASN
-IP-ASN,132203
+# IP-ASN,132203
