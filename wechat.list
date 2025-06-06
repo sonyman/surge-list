@@ -1,7 +1,3 @@
-# 规则集名称: WeChat Direct Rules
-# 描述: 适配 WeChat 相关直连的 Surge 规则集
-
-# DOMAIN 直连
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,btrace.qq.com
 DOMAIN,dl.wechat.com
@@ -20,8 +16,6 @@ DOMAIN,weixin110.qq.com
 DOMAIN,wup.imtt.qq.com
 DOMAIN,wx.tenpay.com
 DOMAIN,wxapp.tc.qq.com
-
-# DOMAIN-SUFFIX 直连
 DOMAIN-SUFFIX,iot-tencent.com
 DOMAIN-SUFFIX,lbs.gtimg.com
 DOMAIN-SUFFIX,map.qq.com
@@ -45,10 +39,6 @@ DOMAIN-SUFFIX,wxapp.tc.qq.com
 DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN-SUFFIX,yun-hl.3g.qq.com
 DOMAIN-SUFFIX,tc.qq.com
-
-# USER-AGENT 直连
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
-
-# IP-ASN 直连
 IP-ASN,132203
