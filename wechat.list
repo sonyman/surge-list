@@ -2,7 +2,7 @@
 # 描述: 适配 WeChat 相关直连的 Surge 规则集
 # WeChat 相关直连
 # 微信小程序认证/登录
-# DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 # 腾讯埋点/分析接口
 DOMAIN,btrace.qq.com
 # 微信多媒体下载
@@ -84,8 +84,8 @@ DOMAIN-SUFFIX,yun-hl.3g.qq.com
 # 微信小程序
 DOMAIN-SUFFIX,tc.qq.com
 # 微信 iOS/Android UA
-# USER-AGENT,MicroMessenger*
+USER-AGENT,MicroMessenger*
 # 微信 UA
-# USER-AGENT,WeChat*
+USER-AGENT,WeChat*
 # 腾讯云 ASN
-# IP-ASN,132203
+IP-ASN,132203
