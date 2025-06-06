@@ -126,10 +126,10 @@ DOMAIN-SUFFIX,yun-hl.3g.qq.com
 DOMAIN-SUFFIX,tc.qq.com
 
 # 微信 iOS/Android UA
-USER-AGENT,MicroMessenger*
+# USER-AGENT,MicroMessenger*
 
 # 微信 UA
-USER-AGENT,WeChat*
+# USER-AGENT,WeChat*
 
 # 腾讯云 ASN
 # IP-ASN,132203
