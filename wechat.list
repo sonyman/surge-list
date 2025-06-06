@@ -1,91 +1,54 @@
-# WeChat 相关直连
-# 微信小程序认证/登录
-DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,DIRECT
-# 腾讯埋点/分析接口
-DOMAIN,btrace.qq.com,DIRECT
-# 微信多媒体下载
-DOMAIN,dl.wechat.com,DIRECT
-# QQ/微信文件下载 CDN
-DOMAIN,dldir1.qq.com,DIRECT
-# 微信小程序短链接口
-DOMAIN,sgfindershort.wechat.com,DIRECT
-# 微信短链接口
-DOMAIN,sgilinkshort.wechat.com,DIRECT
-# 微信长链接口
-DOMAIN,sglong.wechat.com,DIRECT
-# 微信短链接口
-DOMAIN,sgminorshort.wechat.com,DIRECT
-# 微信小程序快速链路接口
-DOMAIN,sgquic.wechat.com,DIRECT
-# 微信短链接口
-DOMAIN,sgshort.wechat.com,DIRECT
-# 微信小程序后台接口
-DOMAIN,slife.xy-asia.com,DIRECT
-# 腾讯视频/小程序后台
-DOMAIN,soup.v.qq.com,DIRECT
-# 微信地图定位
-DOMAIN,tencentmap.wechat.com,DIRECT
-# 微信小程序接口
-DOMAIN,vweixinf.tc.qq.com,DIRECT
-# 微信安全接口
-DOMAIN,weixin110.qq.com,DIRECT
-# 移动传输加速
-DOMAIN,wup.imtt.qq.com,DIRECT
-# 微信支付
-DOMAIN,wx.tenpay.com,DIRECT
-# 微信小程序
-DOMAIN,wxapp.tc.qq.com,DIRECT
+# 规则集名称: WeChat Direct Rules
+# 描述: 适配 WeChat 相关直连的 Surge 规则集
 
-# 腾讯物联网平台
-DOMAIN-SUFFIX,iot-tencent.com,DIRECT
-# 腾讯地图
-DOMAIN-SUFFIX,lbs.gtimg.com,DIRECT
-# 腾讯地图
-DOMAIN-SUFFIX,map.qq.com,DIRECT
-# 微信头像
-DOMAIN-SUFFIX,qlogo.cn,DIRECT
-# 微信多媒体 CDN
-DOMAIN-SUFFIX,qpic.cn,DIRECT
-# 微信服务号
-DOMAIN-SUFFIX,servicewechat.com,DIRECT
-# 微信支付
-DOMAIN-SUFFIX,tenpay.com,DIRECT
-# 微信上传服务器
-DOMAIN-SUFFIX,up-hl.3g.qq.com,DIRECT
-# 微信缩略图
-DOMAIN-SUFFIX,vweixinthumb.tc.qq.com,DIRECT
-# 微信官网
-DOMAIN-SUFFIX,wechat.com,DIRECT
-# 微信法律相关
-DOMAIN-SUFFIX,wechatlegal.net,DIRECT
-# 微信小程序云托管
-DOMAIN-SUFFIX,wechatos.net,DIRECT
-# 微信支付
-DOMAIN-SUFFIX,wechatpay.com,DIRECT
-# 微信
-DOMAIN-SUFFIX,weixin.com,DIRECT
-# 微信主站
-DOMAIN-SUFFIX,weixin.qq.com,DIRECT
-# 微信桥接服务
-DOMAIN-SUFFIX,weixinbridge.com,DIRECT
-# 微信安全
-DOMAIN-SUFFIX,weixinsxy.com,DIRECT
-# 微信多媒体 CDN
-DOMAIN-SUFFIX,wx.gtimg.com,DIRECT
-# 微信服务
-DOMAIN-SUFFIX,wx.qq.com,DIRECT
-# 微信小程序
-DOMAIN-SUFFIX,wxapp.tc.qq.com,DIRECT
-# 微信多媒体
-DOMAIN-SUFFIX,wxs.qq.com,DIRECT
-# 微信上传服务器
-DOMAIN-SUFFIX,yun-hl.3g.qq.com,DIRECT
-DOMAIN-SUFFIX,tc.qq.com,DIRECT
+# DOMAIN 直连
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,btrace.qq.com
+DOMAIN,dl.wechat.com
+DOMAIN,dldir1.qq.com
+DOMAIN,sgfindershort.wechat.com
+DOMAIN,sgilinkshort.wechat.com
+DOMAIN,sglong.wechat.com
+DOMAIN,sgminorshort.wechat.com
+DOMAIN,sgquic.wechat.com
+DOMAIN,sgshort.wechat.com
+DOMAIN,slife.xy-asia.com
+DOMAIN,soup.v.qq.com
+DOMAIN,tencentmap.wechat.com
+DOMAIN,vweixinf.tc.qq.com
+DOMAIN,weixin110.qq.com
+DOMAIN,wup.imtt.qq.com
+DOMAIN,wx.tenpay.com
+DOMAIN,wxapp.tc.qq.com
 
-# 微信 iOS/Android UA
-USER-AGENT,MicroMessenger*,DIRECT
-# 微信 UA
-USER-AGENT,WeChat*,DIRECT
+# DOMAIN-SUFFIX 直连
+DOMAIN-SUFFIX,iot-tencent.com
+DOMAIN-SUFFIX,lbs.gtimg.com
+DOMAIN-SUFFIX,map.qq.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,up-hl.3g.qq.com
+DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wechatlegal.net
+DOMAIN-SUFFIX,wechatos.net
+DOMAIN-SUFFIX,wechatpay.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,weixinsxy.com
+DOMAIN-SUFFIX,wx.gtimg.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,wxapp.tc.qq.com
+DOMAIN-SUFFIX,wxs.qq.com
+DOMAIN-SUFFIX,yun-hl.3g.qq.com
+DOMAIN-SUFFIX,tc.qq.com
 
-# 腾讯云 ASN
-IP-ASN,132203,DIRECT
+# USER-AGENT 直连
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
+
+# IP-ASN 直连
+IP-ASN,132203
