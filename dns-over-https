@@ -1,0 +1,17 @@
+# DNS over HTTPS 屏蔽规则集
+# 用于防止 App 绕过 Surge 使用自己的 DNS 解析通道
+# 推荐直接在主配置中引用本 Rule Set
+
+DOMAIN-SUFFIX,dns.alidns.com,REJECT
+DOMAIN-SUFFIX,dns.tencent.com,REJECT
+DOMAIN-SUFFIX,dns.dnspod.cn,REJECT
+DOMAIN-SUFFIX,dns.google,REJECT
+DOMAIN-SUFFIX,dns.google.com,REJECT
+DOMAIN-SUFFIX,cloudflare-dns.com,REJECT
+DOMAIN-SUFFIX,dns.cloudflare.com,REJECT
+DOMAIN-SUFFIX,dns.quad9.net,REJECT
+DOMAIN-SUFFIX,dns.nextdns.io,REJECT
+DOMAIN-SUFFIX,dns.adguard.com,REJECT
+DOMAIN-SUFFIX,unfiltered.adguard-dns.com,REJECT
+DOMAIN-SUFFIX,security.cloudflare-dns.com,REJECT
+DOMAIN-SUFFIX,dns.ultradns.net,REJECT
