@@ -6,6 +6,9 @@ DOMAIN-KEYWORD,youtube
 
 # YouTube 主站
 DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,studio.youtube.com
+DOMAIN-SUFFIX,signaler-pa.youtube.com
+DOMAIN-SUFFIX,accounts.youtube.com
 
 # YouTube 短链接
 DOMAIN-SUFFIX,youtu.be
