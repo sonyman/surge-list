@@ -1,0 +1,16 @@
+# Google Connectivity Check
+DOMAIN-SUFFIX, connectivitycheck.gstatic.com
+DOMAIN-SUFFIX, connectivitycheck.android.com
+DOMAIN-SUFFIX, clients3.google.com
+
+# Samsung IMS
+DOMAIN-SUFFIX, ims.samsungims.com
+
+# 时间同步
+DOMAIN-SUFFIX, pool.ntp.org
+DOMAIN-SUFFIX, time.android.com
+
+# O2 UK IMS (giffgaff 使用 O2 网络)
+DOMAIN-SUFFIX, ims.mnc010.mcc234.3gppnetwork.org
+DOMAIN-SUFFIX, epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
+IP-CIDR,87.194.0.0/16
